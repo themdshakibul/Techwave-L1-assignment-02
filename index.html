@@ -19,7 +19,10 @@
   </head>
   <body class="font-inter">
     <header class="bg-(--bg-color) border-2 border-b-(--border-color)">
-      <div class="w-[97%] mx-auto sm:-[95%] md:w-[90%] lg:-[85%] xl:w-[80%]">
+      <section
+        class="w-[97%] mx-auto sm:-[95%] md:w-[90%] lg:-[85%] xl:w-[80%]"
+      >
+        <!-- nav bar -->
         <nav class="flex justify-between items-center py-4">
           <!-- nav logo -->
 
@@ -48,7 +51,51 @@
             <i class="ri-menu-line text-(--text-primary) text-3xl"></i>
           </div>
         </nav>
-      </div>
+      </section>
+      <!-- hero sewction -->
+      <section class="bg-image">
+        <div class="w-[97%] mx-auto sm:-[95%] md:w-[90%] lg:-[85%] xl:w-[80%]">
+          <div
+            class="text-center justify-center items-center flex flex-col gap-6 py-24"
+          >
+            <!-- hero image -->
+            <div class="hero-img items-center flex justify-center relative">
+              <img src="./imges/microphone.png" alt="" />
+              <div class="absolute top-10 right-4">
+                <span
+                  class="text-[16px] py-3 px-6 font-bold rounded-4xl bg-(--btn-border) shadow-(--box-shadow)"
+                  >NEW</span
+                >
+              </div>
+            </div>
+            <!-- hero text -->
+            <div class="max-w-[500px] flex flex-col gap-6">
+              <h1
+                class="text-[60px] font-extrabold text-(--text-primary) leading-12"
+              >
+                TechWave
+              </h1>
+              <p class="text-xl text-(--text-primary) leading-[29px]">
+                Your daily dose of tech insights, productivity hacks, and
+                personal growth
+              </p>
+              <!-- hero button -->
+              <div class="flex justify-center gap-4">
+                <button
+                  class="text-(--text-primary) font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gradient-button gap-2 flex items-center cursor-pointer"
+                >
+                  <img src="./imges/spotify.png" alt="" />Listen on Spotify
+                </button>
+                <button
+                  class="text-(--text-green) font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gap-2 flex items-center cursor-pointer border-2 border-(--btn-border)"
+                >
+                  <img src="./imges/message.png" alt="" />Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <main>
       <section></section>

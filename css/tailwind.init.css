@@ -27,18 +27,19 @@
     rgba(145, 0, 248, 1)
   );
 
-
   /*  Background Colors */
   --bg-color: #1a0b2e;
- 
 
   /*  Text Color  */
   --text-primary: #ffffff;
- 
+  --text-green: rgba(0, 255, 136, 1);
 
   /*  Border / Divider  */
   --border-color: rgba(65, 37, 103, 1);
-  
+  --btn-border: rgba(0, 255, 136, 1);
+
+  /* box shadow */
+  --box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
 }
 
 /* Custom gradient */
@@ -52,5 +53,33 @@
 
   .gradient-button {
     background: var(--gradient-secondary);
+  }
+
+  /* background image */
+  .bg-image {
+    background: url(../imges/hero-bg.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  /* hero imge */
+  .hero-img {
+    background: url(../imges/hero-circle.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+  }
+
+  /* hero image mobile */
+  .hero-img-mobile {
+    background: url(../imges/hero-circle.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
   }
 }
