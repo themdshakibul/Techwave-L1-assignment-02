@@ -69,17 +69,11 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 350px;
-    height: 350px;
-  }
-
-  /* hero image mobile */
-  .hero-img-mobile {
-    background: url(../imges/hero-circle.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;
+    width: 320px;
+    height: 320px;
   }
 }
+
+/* #about {
+  padding-bottom: 120px;
+} */

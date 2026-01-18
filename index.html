@@ -18,40 +18,42 @@
     <title>Document</title>
   </head>
   <body class="font-inter">
-    <header class="bg-(--bg-color) border-2 border-b-(--border-color)">
-      <section
-        class="w-[97%] mx-auto sm:-[95%] md:w-[90%] lg:-[85%] xl:w-[80%]"
-      >
-        <!-- nav bar -->
-        <nav class="flex justify-between items-center py-4">
-          <!-- nav logo -->
+    <header class="bg-(--bg-color)">
+      <div class="border-2 border-b-(--border-color)">
+        <section
+          class="w-[97%] mx-auto sm:-[95%] md:w-[90%] lg:-[85%] xl:w-[80%]"
+        >
+          <!-- nav bar -->
+          <nav class="flex justify-between items-center py-4">
+            <!-- nav logo -->
 
-          <h2 class="text-3xl text-(--text-primary) font-bold">
-            Tech<span class="gradient-primary-text text-3xl">Wave</span>
-          </h2>
+            <h2 class="text-3xl text-(--text-primary) font-bold">
+              Tech<span class="gradient-primary-text text-3xl">Wave</span>
+            </h2>
 
-          <!-- nav links -->
-          <div class="hidden md:block">
-            <ul class="flex gap-6 text-[16px] text-(--text-primary)">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Episodes</a></li>
-              <li><a href="#">Host</a></li>
-            </ul>
-          </div>
-          <!-- nav button -->
-          <div class="hidden md:block">
-            <button
-              class="text-(--text-primary) font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gradient-button gap-2 flex items-center"
-            >
-              Subscribe<i class="ri-arrow-right-line text-xl"></i>
-            </button>
-          </div>
-          <!-- menu button -->
-          <div class="md:hidden">
-            <i class="ri-menu-line text-(--text-primary) text-3xl"></i>
-          </div>
-        </nav>
-      </section>
+            <!-- nav links -->
+            <div class="hidden md:block">
+              <ul class="flex gap-6 text-[16px] text-(--text-primary)">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Episodes</a></li>
+                <li><a href="#">Host</a></li>
+              </ul>
+            </div>
+            <!-- nav button -->
+            <div class="hidden md:block">
+              <button
+                class="text-(--text-primary) font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gradient-button gap-2 flex items-center"
+              >
+                Subscribe<i class="ri-arrow-right-line text-xl"></i>
+              </button>
+            </div>
+            <!-- menu button -->
+            <div class="md:hidden">
+              <i class="ri-menu-line text-(--text-primary) text-3xl"></i>
+            </div>
+          </nav>
+        </section>
+      </div>
       <!-- hero sewction -->
       <section class="bg-image">
         <div class="w-[97%] mx-auto sm:-[95%] md:w-[90%] lg:-[85%] xl:w-[80%]">
@@ -98,7 +100,68 @@
       </section>
     </header>
     <main>
-      <section></section>
+      <!-- about Sectionl -->
+      <section id="about" class="bg-(--bg-color)">
+        <!-- header text -->
+        <div class="w-[97%] mx-auto sm:-[95%] md:w-[90%] lg:-[85%] xl:w-[80%]">
+          <div class="text-center border-b py-12 border-(--border-color)">
+            <h1 class="text-[48px] font-bold text-(--text-primary)">
+              About the Podcast
+            </h1>
+            <p class="text-(--text-primary) text-[16px] leading-8 mb-8">
+              TechWave is your go-to podcast for staying ahead in the fast-paced
+              world of technology. <br />
+              We break down complex topics into digestible insights, explore
+              productivity strategies that actually work, <br />
+              and share stories of personal growth from industry leaders.
+            </p>
+            <span class="text-(--text-primary) text-[16px]"
+              >Join thousands of young professionals and tech enthusiasts who
+              start their day with TechWave.</span
+            >
+          </div>
+        </div>
+        <!-- about content -->
+        <div class="w-[97%] mx-auto sm:-[95%] md:w-[90%] lg:-[85%] xl:w-[80%]">
+          <!-- about card -->
+          <div class="grid grid-cols-2 gap-8 sm:grid-cols-4 text-center py-24">
+            <!-- card 1 -->
+            <div class="flex flex-col gap-4">
+              <h1 class="text-4xl md:text-5xl text-(--text-green) font-black">
+                150K+
+              </h1>
+              <h4 class="text-[16px] text-(--text-primary)">
+                Monthly Listeners
+              </h4>
+            </div>
+            <!-- card 2 -->
+            <div class="flex flex-col gap-4">
+              <h1 class="text-4xl md:text-5xl text-(--text-green) font-black">
+                200K+
+              </h1>
+              <h4 class="text-[16px] text-(--text-primary)">
+                Episodes Published
+              </h4>
+            </div>
+            <!-- card 3 -->
+            <div class="flex flex-col gap-4">
+              <h1 class="text-4xl md:text-5xl text-(--text-green) font-black">
+                4.9★
+              </h1>
+              <h4 class="text-[16px] text-(--text-primary)">Average Rating</h4>
+            </div>
+            <!-- card 4 -->
+            <div class="flex flex-col gap-4">
+              <h1 class="text-4xl md:text-5xl text-(--text-green) font-black">
+                50K+
+              </h1>
+              <h4 class="text-[16px] text-(--text-primary)">
+                Industry Experts
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
       <section></section>
       <section></section>
     </main>
