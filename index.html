@@ -42,15 +42,15 @@
             <!-- nav links -->
             <div class="hidden md:block">
               <ul class="flex gap-6 text-[16px] text-(--text-primary)">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Episodes</a></li>
-                <li><a href="#">Host</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#episodes">Episodes</a></li>
+                <li><a href="#meet">Host</a></li>
               </ul>
             </div>
             <!-- nav button -->
             <div class="hidden md:block">
               <button
-                class="text-(--text-primary) font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gradient-button gap-2 flex items-center cursor-pointer"
+                class="text-(--text-primary) font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gradient-button gap-2 flex items-center cursor-pointer transition-all duration-500 ease-in-out hover:bg-pos-100 hover:scale-105"
               >
                 Subscribe<i class="ri-arrow-right-line text-xl"></i>
               </button>
@@ -72,8 +72,8 @@
             <div
               class="w-[250px] sm:w-[300px] md:w-[320px] hero-img items-center flex justify-center relative"
             >
-              <img class="w-[100px]" src="./imges/microphone.png" alt="" />
-              <div class="absolute top-10 right-4">
+              <img class="w-[100px] mic" src="./imges/microphone.png" alt="" />
+              <div class="absolute top-4 right-0">
                 <span
                   class="text-[16px] py-3 px-6 font-bold rounded-4xl bg-(--btn-border) shadow-(--box-shadow)"
                   >NEW</span
@@ -94,12 +94,12 @@
               <!-- hero button -->
               <div class="flex justify-center gap-4">
                 <button
-                  class="text-(--text-primary) font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gradient-button gap-2 flex items-center cursor-pointer"
+                  class="text-(--text-primary) font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gradient-button gap-2 flex items-center cursor-pointer transition-all duration-500 ease-in-out hover:bg-pos-100 hover:scale-105"
                 >
                   <img src="./imges/spotify.png" alt="" />Listen on Spotify
                 </button>
                 <button
-                  class="text-(--text-green) font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gap-2 flex items-center cursor-pointer border-2 border-(--btn-border)"
+                  class="text-(--text-green) font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gap-2 flex items-center cursor-pointer border-2 border-(--btn-border) transition-all duration-500 ease-in-out hover:bg-pos-100 hover:scale-105"
                 >
                   <img src="./imges/message.png" alt="" />Subscribe
                 </button>
@@ -271,7 +271,7 @@
       </section>
 
       <!-- fututr section  -->
-      <section class="bg-(--bg-color) py-16 sm:py-20 md:py-28">
+      <section id="episodes" class="bg-(--bg-color) py-16 sm:py-20 md:py-28">
         <div class="w-[97%] mx-auto sm:-[95%] md:w-[90%] lg:-[85%] xl:w-[80%]">
           <!-- feature Header -->
           <div class="text-center">
@@ -283,18 +283,16 @@
           </div>
           <!-- feature content -->
           <div
-            class="grid sm:grid-cols-2 sm:items-center sm:justify-center md:grid-cols-3 gap-5 justify-center items-center pb-18 sm:pb-24 md:pb-28"
+            class="grid grid-cols-1 sm:grid-cols-2 sm:items-center sm:justify-center lg:grid-cols-3 gap-5 justify-center items-center pb-18 sm:pb-24 md:pb-28"
           >
             <!-- card 1 -->
             <div
-              class="bg-(--card-chooses) w-full sm:max-w-[420px] rounded-3xl"
+              class="bg-(--card-chooses) w-full md:max-w-[420px] rounded-3xl transition-all duration-500 ease-in-out hover:bg-pos-100 hover:scale-105"
             >
               <!-- youtube video -->
-              <div>
+              <div class="w-full aspect-video rounded-t-3xl">
                 <iframe
-                  width="100%"
-                  height="200px"
-                  class="rounded-t-3xl"
+                  class="rounded-t-3xl w-full h-full"
                   src="https://www.youtube.com/embed/muBBYZXYgoM?si=FkNGOziBuiYkUsmu"
                   title="YouTube video player"
                   frameborder="0"
@@ -329,28 +327,28 @@
             </div>
             <!-- card 2 -->
             <div
-              class="bg-(--card-chooses) w-full sm:max-w-[380px] rounded-3xl"
+              class="bg-(--card-chooses) w-full md:max-w-[420px] rounded-3xl transition-all duration-500 ease-in-out hover:bg-pos-100 hover:scale-105"
             >
               <!-- youtube video -->
-              <iframe
-                width="100%"
-                height="200px"
-                class="rounded-t-3xl"
-                src="https://www.youtube.com/embed/qZFJAhh-opE?si=Z4weN_A2Z377mFme"
-                title="YouTube video player"
-                frameborder="0"
-                allow="
-                  accelerometer;
-                  autoplay;
-                  clipboard-write;
-                  encrypted-media;
-                  gyroscope;
-                  picture-in-picture;
-                  web-share;
-                "
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
+              <div class="w-full aspect-video rounded-t-3xl">
+                <iframe
+                  class="rounded-t-3xl w-full h-full"
+                  src="https://www.youtube.com/embed/qZFJAhh-opE?si=Z4weN_A2Z377mFme"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
               <div class="flex flex-col gap-2 p-5">
                 <h2 class="text-2xl font-bold text-(--text-primary)">
                   Building Better Habits for Remote Work
@@ -368,28 +366,28 @@
             </div>
             <!-- card 3 -->
             <div
-              class="bg-(--card-chooses) w-full sm:max-w-[380px] rounded-3xl"
+              class="bg-(--card-chooses) w-full md:max-w-[420px] rounded-3xl transition-all duration-500 ease-in-out hover:bg-pos-100 hover:scale-105"
             >
               <!-- youtube video -->
-              <iframe
-                width="100%"
-                height="200px"
-                class="rounded-t-3xl"
-                src="https://www.youtube.com/embed/7bwDyYVzbaE?si=O6JTrJPCdEaeWvzd"
-                title="YouTube video player"
-                frameborder="0"
-                allow="
-                  accelerometer;
-                  autoplay;
-                  clipboard-write;
-                  encrypted-media;
-                  gyroscope;
-                  picture-in-picture;
-                  web-share;
-                "
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
+              <div class="w-full aspect-video rounded-t-3xl">
+                <iframe
+                  class="rounded-t-3xl w-full h-full"
+                  src="https://www.youtube.com/embed/7bwDyYVzbaE?si=O6JTrJPCdEaeWvzd"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
               <div class="flex flex-col gap-2 p-5">
                 <h2 class="text-2xl font-bold text-(--text-primary)">
                   Career Growth in Tech: A Roadmap
@@ -408,7 +406,7 @@
           </div>
 
           <!-- Meet  Header -->
-          <div class="text-center">
+          <div id="meet" class="text-center">
             <h1
               class="text-3xl sm:text-5xl font-bold text-(--text-primary) pb-12"
             >

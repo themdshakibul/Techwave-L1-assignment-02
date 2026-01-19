@@ -83,3 +83,20 @@
     background-repeat: no-repeat;
   }
 }
+
+/* mic animation */
+.mic {
+  animation: mic 1.2s ease-in-out infinite;
+}
+
+@keyframes mic {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
