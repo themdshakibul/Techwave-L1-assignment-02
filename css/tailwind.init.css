@@ -60,7 +60,7 @@
   /* background image */
   .bg-image {
     background: url(../imges/hero-bg.png);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: top;
     background-repeat: no-repeat;
   }
@@ -78,7 +78,7 @@
   /* footer image */
   .footer-img {
     background: url(../imges/footer-bg.png);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
